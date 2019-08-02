@@ -1,0 +1,21 @@
+{
+  "name": "aws-service-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lambda.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --recursive",
+    "coverage": "./node_modules/.bin/istanbul cover node_modules/mocha/bin/_mocha -- -R spec --recursive"
+  },
+  "author": "Mike Wright",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-sdk": "^2.503.0",
+    "chai": "^4.2.0",
+    "istanbul": "^0.4.5",
+    "lambda-tester": "^3.6.0",
+    "mocha": "^6.2.0",
+    "proxyquire": "^2.1.1",
+    "sinon": "^7.3.2"
+  }
+}
